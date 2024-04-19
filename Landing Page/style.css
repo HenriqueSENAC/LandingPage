@@ -1,0 +1,278 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter';
+    font-size: 22px; 
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-end {
+    align-content: flex-end;
+  }
+
+:root{
+    --neve: snow;
+    --preto: #000000;  
+    --cinza: #F7F7F7;
+    --branco: #FFFFFF;
+    --azul: #050A30;
+    --amarelo: #F8B858;
+} 
+
+.navbar {
+    background-color: var(--branco);
+    overflow: hidden;
+  }
+
+  .navbar img {
+    margin-top: 3.8%;
+    margin-bottom: 2%;
+    margin-left: 6%;
+  }
+
+  .classe1 {
+    float: right;
+    color: snow;
+    text-align: center;
+    padding: 1% 4%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    text-decoration: none;
+    font-size: 70%;
+    background-color: #050A30;
+    border-radius: 17px;
+    font-family: 'Lustra Light'; 
+    font-weight: bold;
+  }
+
+  .classe2 {
+    font-family: "Lustra Light";
+    text-align: center;
+    text-decoration: none;
+    color:#000000;
+    background-color: white;
+    font-size: 190%;
+    margin-top: 9%;
+    margin-left: 4%;
+  }
+
+  .navbar a.active {
+    color: white;
+  }
+
+  @font-face {
+    font-family: 'Lustra Light';
+    src: url(lustra-text-light.ttf);
+    
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url(Inter-text-font.ttf);
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-VariableFont_wght.ttf);
+  }
+
+  .classe-base {
+    width: 100%;
+    height: auto;
+  }  
+  .front{
+    background-image: url(FundoLanding.PNG);
+    background-size: cover;
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+    color: white;
+    font-family: Inter;
+    font-weight: bold;
+}
+
+.classe4{
+  width: 55vw;
+  font-family: "Montserrat";
+  font-size: 55px;
+  padding-top: 5vw;
+  padding-left: 60px; 
+}
+
+.classe5{
+  width: 55vw;
+  font-family: "Montserrat";
+  padding-left: 60px; 
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.caixas{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.card{
+  border: solid 1px #969696;
+  border-radius: 10px;
+  height: 40vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  text-align: left;
+  gap: 12px;
+}
+
+.card p{
+  font-size: 20px;
+  color: #212121;
+}
+
+.card h1{
+  font-size: 22px;
+  color: var(--azul);
+}
+
+.aboutus{
+  background-color: var(--amarelo);
+  width: auto;
+  height: 380px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutus img{
+  margin: 50px;
+  margin-left: auto;
+}
+
+.aboutus div{
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+  padding-right: auto;
+}
+
+.aboutus h1{
+  font-size: 32px;
+  color: var(--azul);
+  padding-bottom: 20px; 
+}
+
+.aboutus p{
+  width: 500px;
+  font-size: 20px;
+  color: #212121;
+}
+
+.newsletter{
+  color: var(--azul);
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
+}
+
+.newsletter-div{
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+  align-items: flex-start;
+}
+
+.newsletter-div2{
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+  align-items: flex-end;
+}
+
+.newsletter p{
+  color: #212121;
+  width: 396px;
+}
+
+.input{
+  width: 450px;
+  height: 45px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-color: #0000007e;
+}
+
+.input::placeholder{
+  font-size: 22px;
+  color: #0000007e;
+}
+
+input[type] {
+  font-size: 22px;
+  padding: 10px;
+  color: var(--preto);
+}
+
+.button{
+  width: 214px;
+  height: 46px;
+  border-radius: 13px;
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--branco);
+  background-color: var(--azul);
+  border-color: var(--branco);
+  border-bottom: var(--branco);
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  color: var(--branco);
+  background-color:var(--azul);
+  width: auto;
+  height: 152px;
+  display: flex;
+}
+
+footer p{
+  font-size: 16px;
+  font-weight: bold;
+  width: 395px;
+  padding: 30px;
+}
+  
+  a{
+  text-decoration: none;
+}
+
+a img{
+  width: 40px;
+  height: 40px;
+}
+
+footer div{
+  display: flex;
+  flex-direction: row;
+  padding-top: 2%;
+  padding-left: 55%;
+}
